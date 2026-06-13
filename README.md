@@ -7,7 +7,7 @@ The local parser is offline and dependency-free. Optional validation providers m
 ## Install
 
 ```bash
-pip install .
+pip install addrforge
 ```
 
 For editable local development:
