@@ -1,0 +1,31 @@
+[
+  {
+    "input": "123 north main street apartment 4b",
+    "kind": "street",
+    "standardized": "123 N MAIN ST APT 4B"
+  },
+  {
+    "input": "1600 Pennsylvania Avenue NW, Washington, DC 20500",
+    "kind": "street",
+    "standardized": "1600 PENNSYLVANIA AVE NW WASHINGTON DC 20500",
+    "complete": true
+  },
+  {
+    "input": "RR 2 Box 152, Fairfax VA 22030",
+    "kind": "po_box",
+    "standardized": "RR 2 BOX 152 FAIRFAX VA 22030",
+    "complete": true
+  },
+  {
+    "input": "PSC 123 Box 456 APO AE 09012",
+    "kind": "po_box",
+    "standardized": "PSC 123 BOX 456 APO AE 09012",
+    "complete": true
+  },
+  {
+    "input": "123 Main St, Toronto ON M5V 2T6 Canada",
+    "kind": "unknown",
+    "is_us": false,
+    "standardized": ""
+  }
+]
